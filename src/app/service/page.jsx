@@ -4,6 +4,7 @@ import Header from "../(components)/header/page";
 import { motion } from "framer-motion";
 import styles from './service.module.css';
 import { ArrowRight, GraduationCap, History, IdCard, Medal, Trophy, UsersRound } from "lucide-react";
+import Link from "next/link";
 const Service = () => {
     return ( 
         <main style={{position:"relative"}}>
