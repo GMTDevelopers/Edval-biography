@@ -32,7 +32,7 @@ const Service = () => {
                                 </div>
                                 <p>Writing about a life is not just listing events. It’s understanding choices, challenges, growth, and impact. We work closely with you through conversations, interviews, and research to create a biography or autobiography that truly reflects who you are.</p>
                                 <p>This service is ideal if you want to preserve your personal story, document a loved one’s life, or record the journey of a leader.</p>
-                                <div className="btnBorderless">Start a biography <ArrowRight className="icon" /> </div>
+                                <Link href="/booking"><div className="btnBorderless">Start a biography <ArrowRight className="icon" /> </div></Link>
                             </div>
                         </div>
                     </motion.div>
@@ -51,7 +51,7 @@ const Service = () => {
                                 </div>
                                 <p>We support academic work that requires structure, clarity, and proper documentation.</p>
                                 <p>Whether you’re an institution, researcher, or student, we help organize research, document findings, and present work in a clear and academically sound manner.</p>
-                                <div className="btnBorderless">Request academic writing <ArrowRight className="icon" /> </div>
+                                <Link href="/booking"><div className="btnBorderless">Request academic writing <ArrowRight className="icon" /> </div></Link>
                             </div>
                             <Image width={528} height={455} src="/image/service/academic.webp" alt="need" />
                         </div>
@@ -70,7 +70,7 @@ const Service = () => {
                                 </div>
                                 <p>Understanding people and societies requires careful observation and proper documentation.</p>
                                 <p>We conduct and support social research projects that help organizations, institutions, and communities better understand social patterns, behaviors, and impact.</p>
-                                <div className="btnBorderless">Request social research <ArrowRight className="icon" /> </div>
+                                <Link href="/booking"><div className="btnBorderless">Request social research <ArrowRight className="icon" /> </div></Link>
                             </div>
                         </motion.div>
                         <motion.div
@@ -86,7 +86,7 @@ const Service = () => {
                                 </div>
                                 <p>Many people and institutions reach a point where it becomes important to document years of work, service, and impact.</p>
                                 <p>We help you carefully record achievements, milestones, and contributions in a way that can be referenced, celebrated, and preserved.</p>
-                                <div className="btnBorderless">Make a request <ArrowRight className="icon" /> </div>
+                                <Link href="/booking"><div className="btnBorderless">Make a request <ArrowRight className="icon" /> </div></Link>
                             </div>      
                         </motion.div>                  
                     </div>
@@ -105,7 +105,7 @@ const Service = () => {
                                 </div>
                                 <p>History matters, especially when it is properly documented.</p>
                                 <p>We research and document organizational, institutional, and community history using verified sources, interviews, and archival material.</p>
-                                <div className="btnBorderless">Start historical documentation <ArrowRight className="icon" /> </div>
+                                <Link href="/booking"><div className="btnBorderless">Start historical documentation <ArrowRight className="icon" /> </div></Link>
                             </div>
                         </div>
                     </motion.div>
@@ -123,7 +123,7 @@ const Service = () => {
                                 </div>
                                 <p>We help plan and document award ceremonies that recognize excellence and service.</p>
                                 <p>From citation writing to achievement documentation, we ensure award programs are meaningful and professionally handled.</p>
-                                <div className="btnBorderless">Plan an Award Program <ArrowRight className="icon" /> </div>
+                                <Link href="/booking"><div className="btnBorderless">Plan an Award Program <ArrowRight className="icon" /> </div></Link>
                             </div>
                             <Image width={528} height={455} src="/image/service/award.webp" alt="need" />
                         </div>
