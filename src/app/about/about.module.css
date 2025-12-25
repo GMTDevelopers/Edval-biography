@@ -1,0 +1,134 @@
+/* .needSection{
+
+} */
+.needHeader{
+    margin-top: 74px;
+}
+.needHeader h2{
+    margin-bottom: 16px;
+}
+.needHeader p{
+    margin-bottom: 6px;
+}
+.double{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    line-height: 32px;
+    margin-top: 32px;
+}
+.doubleTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card{
+  background: #FFFFFF;
+  padding: 68px 20px 35px 20px;
+}
+.card .cardTitle{
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+.cardIcon{
+  width: 35px;
+  height: 36px;
+  color: #7BA613;
+}
+
+.valueSection{
+    margin-top: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 86px;
+}
+.valueHeader{
+    text-align: center;
+    width: 57%;
+}
+.valueImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+/* .valueImg img{
+    width: 100%;
+    height: auto;
+} */
+.headerDescription{
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.valuePack{
+    margin-top: 56px;
+    margin-bottom: 81px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.chooseCard{
+    border: 1px solid #7BA6138F;
+    padding: 32px 43px 40px 64px;
+}
+.chooseCardHeader{
+    display: flex;
+    gap: 12px;
+    color: #233C01;
+    flex-direction: row ;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
+@media (max-width: 992px) {
+    .double img{
+        width: 50%;
+        height: auto;
+    }
+    .chooseCard{
+        border: 1px solid #7BA6138F;
+        padding: 22px 33px 30px 34px;
+    }
+}
+@media (max-width: 768px) {
+    .valueImg img{
+        width: 90%;
+        height: auto;
+    }
+    .chooseCard{
+        border: 1px solid #7BA6138F;
+        padding: 12px 13px 20px 14px;
+    }
+}
+@media (max-width: 656px) {
+    .double{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        line-height: 32px;
+    }
+    .double img{
+        width: 100%;
+        height: auto;
+    }
+    .valueImg img{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .valueHeader{
+        width: 70%;
+    }
+    .valuePack{
+        margin-top: 56px;
+        margin-bottom: 81px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

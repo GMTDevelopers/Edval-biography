@@ -1,0 +1,48 @@
+.container{
+    width: 56%;
+    min-height: 1053px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 56px;
+    padding: 68px 98px 58px 98px;
+}
+.bookingHeader{
+    width: 95%;
+/*     border: 1px solid red; */
+    text-align: center;
+}
+.headerDescription{
+    margin-top: 8px;
+}
+.form{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    color:#38580C ;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 56%;
+        min-height: 1053px;
+        height: auto;
+        margin-top: 56px;
+        padding: 68px 48px 58px 48px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width: 89%;
+        min-height: 1053px;
+        height: auto;
+        background: #ffffff;
+        margin: auto;
+        margin-top: 56px;
+        padding: 68px 58px 58px 58px;
+    }
+}

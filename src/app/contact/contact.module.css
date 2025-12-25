@@ -1,0 +1,12 @@
+.tag{
+    display: flex;
+    flex-direction: column;
+    color:#38580C ;
+    margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+.contactImg{
+    display: none;
+}
+}
