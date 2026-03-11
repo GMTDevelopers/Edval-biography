@@ -4,7 +4,26 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { ArrowRight, CircleCheck, GraduationCap, History, IdCard, Medal, Trophy, UsersRound } from "lucide-react";
 import Link from "next/link";
-
+export const metadata = {
+  title: "Edval Biography",
+  description: "We help individuals, institutions, and organizations document lives, achievements, and histories with depth, accuracy, and lasting value",
+  openGraph: {
+    title: "Edval Biography",
+    description: "We help individuals document lives and achievements",
+    url: "https://edvalbiography.com",
+    siteName: "Edval Biography",
+    images: [
+      {
+        url: "/image/logo.png",
+        width: 200,
+        height: 30,
+        alt: "Edval Biography",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
 export default function Home() {
   return (
     <main style={{position:"relative"}}>
@@ -112,21 +131,21 @@ export default function Home() {
                 </span>
                 <span className={styles.chooseCard}>
                   <div className={styles.chooseCardHeader}>
-                    <CircleCheck className="icon" /> Personal Approach
+                    <CircleCheck className="icon" /> Proper Research
                   </div>
-                  <p>Every project is treated with care and attention. Nothing is copied, rushed, or handled like a template.</p>
+                  <p>We support every project with interviews, verification, and careful fact-checking.</p>
                 </span>
                 <span className={styles.chooseCard}>
                   <div className={styles.chooseCardHeader}>
-                    <CircleCheck className="icon" /> Personal Approach
+                    <CircleCheck className="icon" /> Clear Storytelling
                   </div>
-                  <p>Every project is treated with care and attention. Nothing is copied, rushed, or handled like a template.</p>
+                  <p>We balance thoughtful storytelling with structure so your work is both meaningful and easy to follow.</p>
                 </span>
                 <span className={styles.chooseCard}>
                   <div className={styles.chooseCardHeader}>
-                    <CircleCheck className="icon" /> Personal Approach
+                    <CircleCheck className="icon" /> Collaborative Process
                   </div>
-                  <p>Every project is treated with care and attention. Nothing is copied, rushed, or handled like a template.</p>
+                  <p>You’re involved at every stage, with room for feedback and revisions until it feels right.</p>
                 </span>
               </div>
             </div>

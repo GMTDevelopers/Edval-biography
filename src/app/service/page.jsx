@@ -5,6 +5,28 @@ import { motion } from "framer-motion";
 import styles from './service.module.css';
 import { ArrowRight, GraduationCap, History, IdCard, Medal, Trophy, UsersRound } from "lucide-react";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Edval Biography",
+  description: "Every service we offer is built around one goal: helping you document stories, achievements, and research in a way that is clear, accurate, and meaningful.",
+  openGraph: {
+    title: "Edval Biography Services",
+    description: "Every service we offer is built around one goal: helping you document stories, achievements, and research in a way that is clear, accurate, and meaningful.",
+    url: "https://edvalbiography.com",
+    siteName: "Edval Biography",
+    images: [
+      {
+        url: "/image/logo.png",
+        width: 200,
+        height: 30,
+        alt: "Edval Biography",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
+
 const Service = () => {
     return ( 
         <main style={{position:"relative"}}>

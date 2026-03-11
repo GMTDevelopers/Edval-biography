@@ -22,7 +22,7 @@ const Footer = () => {
                         <div className={styles.itemContacts}>
                             <li><Phone style={{color:"#7BA613"}} className='icon'/> +234 805 596 6609</li>
                             <li><Mail style={{color:"#7BA613"}} className='icon'/> info@edvalbiography.com</li>
-                            <li><MapPinned style={{color:"#7BA613"}} className='icon' /> 20A Okumagba avenue off airport road, before estate roundabout, warri.</li>
+                            <li><MapPinned style={{color:"#7BA613"}} className='icon' /> 69, Second West Circular road, Benin City, Edo State.</li>
                         </div>
                     </div>
                     <div className={styles.item2}>
