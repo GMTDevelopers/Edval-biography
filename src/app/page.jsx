@@ -4,26 +4,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { ArrowRight, CircleCheck, GraduationCap, History, IdCard, Medal, Trophy, UsersRound } from "lucide-react";
 import Link from "next/link";
-export const metadata = {
-  title: "Edval Biography",
-  description: "We help individuals, institutions, and organizations document lives, achievements, and histories with depth, accuracy, and lasting value",
-  openGraph: {
-    title: "Edval Biography",
-    description: "We help individuals document lives and achievements",
-    url: "https://edvalbiography.com",
-    siteName: "Edval Biography",
-    images: [
-      {
-        url: "/image/logo.png",
-        width: 200,
-        height: 30,
-        alt: "Edval Biography",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-};
+
 export default function Home() {
   return (
     <main style={{position:"relative"}}>
